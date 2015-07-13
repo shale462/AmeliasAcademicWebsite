@@ -4139,7 +4139,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .nav-pills > li {
-  float: left;
+  float: right;
 }
 .nav-pills > li > a {
   border-radius: 4px;
@@ -4153,6 +4153,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #ffffff;
   background-color: #4582ec;
 }
+
 .nav-stacked > li {
   float: none;
 }
@@ -6915,3 +6916,13 @@ legend {
 .modal .close {
   color: #333333;
 }
+
+/* This is where we will add any other CSS */
+.text-centre {
+	text-align:center;
+}
+
+
+
+
+
