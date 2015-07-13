@@ -8,6 +8,36 @@
 </head>
 <body>
 
+<ul class="nav nav-pills">
+  <li class="active"><a href="#">Home</a></li>
+  <li><a href="#">Profile</a></li>
+  <li class="disabled"><a href="#">Disabled</a></li>
+  <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+      Dropdown <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="#">Action</a></li>
+      <li><a href="#">Another action</a></li>
+      <li><a href="#">Something else here</a></li>
+      <li class="divider"></li>
+      <li><a href="#">Separated link</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+<h1>Readable</h1>
+<div>
+    <a href="#" class="btn btn-default">Default</a>
+    <a href="#" class="btn btn-primary">Primary</a>
+    <a href="#" class="btn btn-success">Success</a>
+    <a href="#" class="btn btn-info">Info</a>
+    <a href="#" class="btn btn-warning">Warning</a>
+    <a href="#" class="btn btn-danger">Danger</a>
+</div>
+
+
 <h3>This is a test</h3>
 <hr />
 <p> This is a test paragraph. I will <b>bold</b>
@@ -33,6 +63,7 @@ culpa qui officia deserunt mollit anim id est laborum.
 </xmp>
 
 <script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+
 
 </body>
 </html>
